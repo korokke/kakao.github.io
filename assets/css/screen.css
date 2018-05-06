@@ -745,23 +745,23 @@ body.page-template #cover {
 }
 
 body.home-template #cover {
-    background-image: url(../images/default_blog_cover.jpg);
+    /*background-image: url(../images/default_blog_cover.jpg);*/
 }
 
 body.post-template #cover {
-    background-image: url(../images/default_post_cover.jpg);
+    /*background-image: url(../images/default_post_cover.jpg);*/
 }
 
 body.page-template #cover {
-    background-image: url(../images/default_page_cover.jpg);
+    /*background-image: url(../images/default_page_cover.jpg);*/
 }
 
 body.author-template #cover {
-    background-image: url(../images/default_author_cover.jpg);
+    /*background-image: url(../images/default_author_cover.jpg);*/
 }
 
 body.tag-template #cover {
-    background-image: url(../images/default_tag_cover.jpg);
+    /*background-image: url(../images/default_tag_cover.jpg);*/
 }
 
 body.home-template #cover p,
