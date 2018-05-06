@@ -220,11 +220,12 @@ for small screen(<720px):
     border-bottom: 1px solid #e6e6e6;
     color: #505050;
     font-size: 15px;
-    line-height: 59px; /* 59px = 60(height) - 1(border) */
 }
 
 #menu > li > a {
+    display: block;
     padding: 0 16px;
+    line-height: 59px;
 }
 
 #menu > li.active,
@@ -1215,8 +1216,6 @@ body.page-template {
 
     #menu > li {
         display: block;
-        height: 50px;
-        line-height: 50px;
         border-bottom: none;
     }
 
@@ -1227,6 +1226,8 @@ body.page-template {
 
     #menu > li > a {
         display: block;
+        height: 50px;
+        line-height: 50px;
     }
 
     #search {
