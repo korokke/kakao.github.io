@@ -925,21 +925,6 @@ body.tag-template #navbar {
     font-size: 14px;
 }
 
-#post-prev,
-#post-next {
-    display: table-cell;
-    width: 50%;
-    background: url(../images/default_post_cover.jpg) no-repeat center;
-    background-size: cover;
-}
-
-#post-prev > *,
-#post-next > * {
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(12, 12, 48, 0.3);
-}
-
 /* @@iolo */
 #lightbox {
     display: none;
@@ -1312,12 +1297,6 @@ body.page-template {
 
     #post-more > span {
         display: none;
-    }
-
-    #post-prev,
-    #post-next {
-        display: block;
-        width: 100%;
     }
 
     /* tag */
