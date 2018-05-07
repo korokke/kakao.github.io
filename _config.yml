@@ -3,7 +3,7 @@ email: realkorokke@outlook.com
 description: |
   고로케의 블로그입니다
 baseurl: ''
-url: 'http://korokke.github.io'
+url: 'https://korokke.github.io'
 timezone: Asia/Seoul
 
 repository: korokke/korokke.github.io
