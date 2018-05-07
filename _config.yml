@@ -8,7 +8,8 @@ timezone: Asia/Seoul
 
 repository: korokke/korokke.github.io
 
-permalink: /:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /:year-:month-:day-:title/
 
 excerpt_separator: <!--more-->
 
@@ -25,9 +26,9 @@ paginate: 5
 paginate_path: '/page/:num/'
 
 collections:
-  authors:
-    output: true
-    permalink: /authors/:path/
+  #authors:
+  #  output: true
+  #  permalink: /authors/:path/
   tags:
     output: true
     permalink: /tags/:path/
