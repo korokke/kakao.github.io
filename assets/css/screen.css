@@ -403,7 +403,7 @@ for small screen(<720px):
 #cover {
     display: table;
     width: 100%;
-    height: 310px;
+    height: 200px;
     padding: 0;
     background: no-repeat center;
     background-size: cover;
@@ -414,7 +414,7 @@ for small screen(<720px):
     position: relative;
     vertical-align: middle;
     text-align: center;
-    background-color: rgba(12, 12, 48, 0.3);
+    background-color: #fff; /* rgba(12, 12, 48, 0.3); */
     overflow: hidden;
     z-index: 2;
 }
@@ -423,7 +423,7 @@ for small screen(<720px):
     width: 80%; /* @@iolo */
     max-width: 780px;
     margin: 0 auto;
-    color: #fff;
+    color: #000;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -448,7 +448,7 @@ for small screen(<720px):
 #cover a:visited,
 #cover a:active,
 #cover a:hover {
-    color: #fff;
+    color: #000;
 }
 
 #cover video {
@@ -647,6 +647,18 @@ a.tag {
     font-size: 12px;
     line-height: 24px; /* 24px = 26(height) - 2(border) */
 }
+span.date {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 0 10px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    vertical-align: middle;
+    background-color: #e6e6e6;
+    color: #1e1e1e;
+    font-size: 12px;
+    line-height: 24px; /* 24px = 26(height) - 2(border) */
+}
 
 a.tag:active,
 a.tag:hover {
@@ -839,7 +851,8 @@ body.tag-template #navbar {
     position: relative;
     margin: 0 40px;
     padding: 70px 40px 100px 40px; /* 40(margin) + 40(padding) = 80 */
-    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    /* border-bottom: 1px solid #e6e6e6; */
     font-size: 16px;
     line-height: 28px; /* 28px = 16(font-size) + 12(line-spacing) */
     text-align: justify;
@@ -972,8 +985,8 @@ body.tag-template #navbar {
 /* @@iolo */
 #post-footer {
     position: relative;
-    height: 120px;
-    margin: 0 80px;
+    /* height: 120px;
+    margin: 0 80px; */
 }
 
 #author-image {
@@ -996,11 +1009,14 @@ body.tag-template #navbar {
 }
 
 #post-date {
-    position: absolute;
-    top: 64px; /* 64px = 44(#author-name top) + 14(#author-name height) + 6(spacing) */
-    left: 75px; /* 75px = (#author-name left) */
-    margin: 0;
-    font-size: 12px;
+    /* position: absolute;
+    top: 64px; 64px = 44(#author-name top) + 14(#author-name height) + 6(spacing)
+    left: 75px; 75px = (#author-name left) */
+    /* margin: 0; */
+    font-size: 15px;
+    margin-right: 10px;
+    padding-right: 12px;
+    border-right: #e4e4e4 solid 1px;
 }
 
 #post-more {
