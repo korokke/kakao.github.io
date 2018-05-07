@@ -3,7 +3,8 @@ layout: default
 ---
 <div id="navbar" class="container">
     <h5><a id="link-back" href="/">Main</a></h5>
-    <p>{{ page.title }}</p>
+    <p><a href="{{ site.baseurl }}/tags/{{ page.name }}" title="{{ page.name }}"
+        class="tag tag-{{ page.name }}">{{ page.name }}</a> {{ page.title }}</p>
     {% include share.html %}
 </div>
 
