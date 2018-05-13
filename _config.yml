@@ -24,6 +24,10 @@ plugins:
 paginate: 5
 paginate_path: '/page/:num/'
 
+year_path: '/date/:year/'
+month_path: '/date/:year/:month/'
+day_path: '/date/:year/:month/:day/'
+
 collections:
   tags:
     output: true
