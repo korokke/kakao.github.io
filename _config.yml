@@ -8,8 +8,7 @@ timezone: Asia/Seoul
 
 repository: korokke/korokke.github.io
 
-#permalink: /:year/:month/:day/:title/
-permalink: /:year-:month-:day-:title/
+permalink: /:year/:month/:day/:title/
 
 excerpt_separator: <!--more-->
 

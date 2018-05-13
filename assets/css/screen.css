@@ -613,7 +613,7 @@ for small screen(<720px):
     margin-top: 18px;
 }
 
-a.tag {
+a.tag, span.date {
     display: inline-block;
     margin: 0 5px 5px 0;
     padding: 0 10px;
@@ -626,16 +626,8 @@ a.tag {
     line-height: 24px; /* 24px = 26(height) - 2(border) */
 }
 span.date {
-    display: inline-block;
-    margin: 0 5px 5px 0;
-    padding: 0 10px;
-    border: 1px solid #dadada;
-    border-radius: 4px;
-    vertical-align: middle;
-    background-color: #e6e6e6;
-    color: #1e1e1e;
-    font-size: 12px;
-    line-height: 24px; /* 24px = 26(height) - 2(border) */
+	font-weight: 500;
+	background-color: #eeeeee;
 }
 
 a.tag:active,
