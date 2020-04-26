@@ -1,6 +1,7 @@
 ## 개요
-realkorokke@outlook.com 의 개인 블로그<br>
+개인 개인 블로그<br>
 https://github.com/kakao/kakao.github.io 에서 긁어와 요래저래 수정함<br>
+사용하지는 않지만 깃허브 jekyll 블로그 테스트
 
 
 ### 글 쓰기
